@@ -1,0 +1,14 @@
+{
+  "name": "express_introduction",
+  "description": "Express application",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "short": "2.x",
+    "hbs": "*"
+  }
+}

@@ -1,0 +1,9 @@
+<h1>Saved URLS</h1>
+
+<p>{{count}} Shortened URLs</p>
+
+<ul>
+{{#each urls}}
+<li><a href="/{{hash}}" title="{{URL}}">{{hash}}</a> - {{URL}}</li>
+{{/each}}
+</ul>
